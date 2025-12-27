@@ -5,7 +5,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Register />} />
-      <Route path="/submit-form" element={<Register />} />
+      <Route path="/deploySubmitform" element={<Register />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
